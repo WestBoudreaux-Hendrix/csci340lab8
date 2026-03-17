@@ -32,6 +32,9 @@
                 @Html.DisplayNameFor(model => model.Anime[0].Genre)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Anime[0].SubGenre)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Anime[0].Rating)
             </th>
             <th></th>
@@ -48,6 +51,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubGenre)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Rating)

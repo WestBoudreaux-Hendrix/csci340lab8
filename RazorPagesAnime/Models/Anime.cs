@@ -12,6 +12,10 @@ public class Anime
     [Display(Name = "Release Date")]
     [DataType(DataType.Date)]
     public DateTime ReleaseDate { get; set; }
+   
+
     public string? Genre { get; set; }
+    [Display(Name = "Sub-Genre")]
+    public string? SubGenre { get; set;}
     public decimal Rating { get; set; }
 }
