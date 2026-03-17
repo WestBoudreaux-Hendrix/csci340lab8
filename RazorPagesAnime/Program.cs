@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using RazorPagesAnime.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<RazorPagesAnimeContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesAnimeContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesAnimeContext' not found.")));
 
 var app = builder.Build();
 
