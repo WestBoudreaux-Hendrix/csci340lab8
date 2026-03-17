@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\RazorPagesAnime.csproj": {}
+    "C:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\RazorPagesAnime.csproj": {}
   },
   "projects": {
-    "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\RazorPagesAnime.csproj": {
+    "C:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\RazorPagesAnime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\RazorPagesAnime.csproj",
+        "projectUniqueName": "C:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\RazorPagesAnime.csproj",
         "projectName": "RazorPagesAnime",
-        "projectPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\RazorPagesAnime.csproj",
+        "projectPath": "C:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\RazorPagesAnime.csproj",
         "packagesPath": "C:\\Users\\westb\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\obj\\",
+        "outputPath": "C:\\Users\\westb\\OneDrive - Hendrix College\\Desktop\\Databases&Web Systems\\csci380lab8\\csci340lab8\\RazorPagesAnime\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\westb\\AppData\\Roaming\\NuGet\\NuGet.Config"
