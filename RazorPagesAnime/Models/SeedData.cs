@@ -25,38 +25,38 @@ public static class SeedData
             context.Anime.AddRange(
                 new Anime
                 {
-                    Title = "When Harry Met Sally",
-                    ReleaseDate = DateTime.Parse("1989-2-12"),
+                    Title = "A Little Snow Fairy Sugar",
+                    ReleaseDate = DateTime.Parse("2001-10-2"),
+                    Genre = "Comedy",
+                    SubGenre= "Slice-of-life",
+                    Rating = 7.1M
+                },
+
+                new Anime
+                {
+                    Title = "Code Geass",
+                    ReleaseDate = DateTime.Parse("2006-10-6"),
+                    Genre = "Action-Drama",
+                    SubGenre= "Sci-fi",
+                    Rating = 8.7M
+                },
+
+                new Anime
+                {
+                    Title = "Ginban Kaleidoscope",
+                    ReleaseDate = DateTime.Parse("2005-10-08"),
                     Genre = "Romantic Comedy",
-                    SubGenre= "blah",
-                    Rating = 7.99M
+                    SubGenre= "Sport",
+                    Rating = 7.2M
                 },
 
                 new Anime
                 {
-                    Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
-                    Genre = "Comedy",
-                    SubGenre= "blah",
-                    Rating = 8.99M
-                },
-
-                new Anime
-                {
-                    Title = "Ghostbusters 2",
-                    ReleaseDate = DateTime.Parse("1986-2-23"),
-                    Genre = "Comedy",
-                    SubGenre= "blah",
-                    Rating = 9.99M
-                },
-
-                new Anime
-                {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
-                    SubGenre= "blah",
-                    Rating = 3.99M
+                    Title = "Kono Minikuku",
+                    ReleaseDate = DateTime.Parse("2004-4-1"),
+                    Genre = "Action",
+                    SubGenre= "Sci-fi",
+                    Rating = 6.1M
                 }
             );
             context.SaveChanges();
