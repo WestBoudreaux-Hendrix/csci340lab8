@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using RazorPagesAnime.Models;
 using RazorPagesAnime.Data;
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,13 @@ builder.Services.AddDbContext<RazorPagesAnimeContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesAnimeContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesAnimeContext' not found.")));
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
